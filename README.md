@@ -35,7 +35,6 @@ The project covers the design and analysis of high-performance amplifiers and os
 
 ## 📂 Repository Structure
 * `/docs`: Final laboratory report (PDF) and assignment descriptions.
-* `/simulations`: SPICE circuit files (.asc / .cir / .net).
 * `/images`: Waveform captures (Bode plots, Oscilloscope screenshots).
 
 ## 🎓 Academic Info
