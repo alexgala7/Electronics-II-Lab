@@ -38,6 +38,10 @@ The project covers the design and analysis of high-performance amplifiers and os
 * `/simulations`: SPICE circuit files (.asc / .cir / .net).
 * `/images`: Waveform captures (Bode plots, Oscilloscope screenshots).
 
+## 📂 Project Documents
+* [📄 Assignment Description (PDF)](./docs/Electronics_II_Assignment.pdf)
+* [✅ Final Project Report (PDF)](./docs/Electronics_II_Final_Report.pdf)
+  
 ## 🎓 Academic Info
 * **Institution:** Aristotle University of Thessaloniki (AUTh)
 * **Course:** Electronics II (2023)
