@@ -1,47 +1,44 @@
-# Electronics II - Laboratory Projects & Circuit Simulations
+# Electronics II - Design, SPICE Simulation & Laboratory Analysis
 
-This repository contains a comprehensive collection of laboratory exercises and circuit designs developed for the **Electronics II** course. The projects involve theoretical analysis, SPICE simulations, and experimental validation of various analog electronic configurations.
+This repository contains the complete project for the **Electronics II** course (2023). The work integrates rigorous theoretical calculations, SPICE simulations, and experimental validation for complex analog circuits.
 
-## 🚀 Overview
-The focus of these projects was to design, simulate, and analyze high-performance analog circuits using Bipolar Junction Transistors (BJTs), JFETs, and Operational Amplifiers.
+## 🚀 Project Overview
+The project covers the design and analysis of high-performance amplifiers and oscillators, focusing on DC biasing, AC gain, and frequency response.
 
-## 🛠 Tools Used
-* **Simulation:** SPICE (LTspice / PSpice)
-* **Documentation:** LaTeX/PDF for theoretical analysis and experimental reports
-* **Hardware Validation:** Oscilloscopes, Multimeters, and Signal Generators (Lab Environment)
+## 🛠 Tech Stack
+* **Simulation:** SPICE (Analysis of DC, Transient, and AC Sweep)
+* **Components:** BJT (BC238), JFET (J2N3819), Op-Amp (μA741)
+* **Documentation:** Technical Report with circuit schematics and waveforms
 
-## 📋 Key Projects Included
+## 📋 Key Modules Analyzed
 
-### 1. Differential Amplifiers
-* Analysis of BJT differential pairs in comparator mode.
-* Calculation of output waveforms, gain, and threshold voltages ($V_{UT}$, $V_{LT}$).
-* Comparison between theoretical DC sweeps and SPICE simulations.
+### 1. Differential Amplifier Stage
+* **Theoretical Analysis:** Calculation of operating points ($I_{Cq}$, $V_{CEq}$) and voltage gain.
+* **SPICE Validation:** Comparison of theoretical values with simulated DC sweeps and transfer characteristics.
 
-### 2. Cascode Amplifiers
-* Design of a high-gain Cascode stage using JFET (Common Source) and BJT (Common Base).
-* Frequency response analysis (AC Sweep) from 1Hz to 10MHz.
-* Investigation of input/output impedance and gain stabilization.
+### 2. High-Gain Cascode Amplifier
+* Combined **JFET (Common Source)** and **BJT (Common Base)** configuration.
+* Detailed analysis of input/output impedance and bandwidth.
+* Simulation of frequency response to identify cut-off frequencies.
 
-### 3. Negative Feedback Systems
-* Implementation of Voltage-Series and Current-Parallel feedback topologies.
-* Evaluation of feedback effects on gain stability, bandwidth, and linearity.
-* Observation of signal clipping and distortion without feedback.
+### 3. Feedback Amplifiers
+* Study of **Voltage-Series** and **Current-Parallel** feedback topologies.
+* Quantifying the impact of negative feedback on gain stability and signal distortion.
 
-### 4. Operational Amplifier Applications (μA741)
-* **Schmitt Trigger:** Designing comparators with hysteresis for noise immunity.
-* **Pulse Generators:** Square-wave oscillators based on RC timing circuits.
-* **Zero-Crossing Detectors:** Precision timing circuits for signal processing.
+### 4. Operational Amplifier (μA741) Applications
+* **Schmitt Trigger:** Designing for specific hysteresis thresholds ($V_{UT}$, $V_{LT}$).
+* **Pulse Generation:** Implementation of astable multivibrators for square-wave generation.
 
-### 5. Oscillators
-* **Phase-Shift Oscillators:** Triple RC network design for 180° phase shift.
-* **Wien Bridge Oscillators:** Implementation of positive feedback for stable sine-wave generation.
+### 5. Sinusoidal Oscillators
+* **Phase-Shift & Wien Bridge Oscillators:** Setting the barkhausen criterion for stable oscillations.
+* Analysis of frequency accuracy between SPICE simulations and laboratory measurements.
 
 ## 📂 Repository Structure
-* `/docs`: Contains assignment descriptions and final solution reports (PDF).
-* `/simulations`: SPICE netlists and simulation files (.asc / .cir).
-* `/images`: Screenshots of circuit schematics and output waveforms (Bode plots, Transients).
+* `/docs`: Final laboratory report (PDF) and assignment descriptions.
+* `/simulations`: SPICE circuit files (.asc / .cir / .net).
+* `/images`: Waveform captures (Bode plots, Oscilloscope screenshots).
 
-## 🎓 Academic Context
+## 🎓 Academic Info
 * **Institution:** Aristotle University of Thessaloniki (AUTh)
-* **Course:** Electronics II
-* **Instructor:** Prof. I.M. Kontoleon
+* **Course:** Electronics II (2023)
+* **Department:** Electrical and Computer Engineering
